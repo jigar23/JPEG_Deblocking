@@ -7,13 +7,13 @@ There are total of 3 operations that can be performed.
 
 Compile files:
 
-For DCT
+For DCT: <br>
 g++ Dct_operations.cpp FileIO/fileIO.cpp DCT/Dct.cpp -o DctOperations
 
-For JPEG Deblocking
+For JPEG Deblocking:<br>
 g++ JPEG_deblocking.cpp Deblocking/deblock.cpp FileIO/fileIO.cpp YUV/yuv.cpp -o JPEG_Deblocking
 
-For PSNR
+For PSNR:<br>
 g++ PSNR.cpp FileIO/fileIO.cpp -o PSNR
 
 1. DCT operations
