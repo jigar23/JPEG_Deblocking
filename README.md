@@ -5,6 +5,17 @@ Deblocking filter | DCT | PSNR
 
 There are total of 3 operations that can be performed.
 
+Compile files:
+
+For DCT
+g++ Dct_operations.cpp FileIO/fileIO.cpp DCT/Dct.cpp -o DctOperations
+
+For JPEG Deblocking
+g++ JPEG_deblocking.cpp Deblocking/deblock.cpp FileIO/fileIO.cpp YUV/yuv.cpp -o JPEG_Deblocking
+
+For PSNR
+g++ PSNR.cpp FileIO/fileIO.cpp -o PSNR
+
 1. DCT operations
 
    Run the file *DctOperations* and follow its usage.
@@ -27,3 +38,9 @@ There are total of 3 operations that can be performed.
    Run the file *PSNR* and follow its usage.
    e.g. Run the file as:
    PSNR -i resources/original.dat -o resources/quantized.dat
+
+
+
+IMP:
+
+Refer to the file jpeg.pdf and JPEGCodeReference.rtf for more details.
